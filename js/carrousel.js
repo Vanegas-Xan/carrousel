@@ -1,8 +1,14 @@
 (function(){
+
+        /* ---------------------------------- Appel de la galerie */
     console.log('début carrousel')
     let bouton = document.querySelector('.carrousel__ouvrir');
     let carrousel = document.querySelector('.carrousel');
     let carrousel__x = document.querySelector('.carrousel__x');
+    let carrousel__figure = document.querySelector('.carrousel__figure');
+
+    /* ---------------------------------- Variable de la galerie */
+
     let galerie = document.querySelector('.galerie')
     let galerie__img = galerie.querySelectorAll("img")
     console.log('galerie__img:' + galerie__img.length )
@@ -23,8 +29,10 @@
 
             //console.log(elm.getAttribute('src'))
             let img = document.createElement('img');
+            
             img.setAttribute('src', elm.getAttribute('src'))
             console.log (img.getAttribute('src'))
+            carrousel__figure.appendChild(img)
         }
     }
 
