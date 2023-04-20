@@ -1,14 +1,14 @@
-# Lab4
+# Lab5
 ## 4w4-Création d'interface et développement web
 ### Auteur : Xander Vanegas
 
 #### Description
-Laboratoire 4 : les champs personnalisés et le carrousel
+Laboratoire 5 : Amélioration du carrousel.
 
 ##### Objectifs: 
 - Ajouter le carrousel et qu'il soit fonctionnel
-- Ajouter la boite modale et qu'elle soit fonctionnelle
--Amélioration du thème avec sass
+- Ajustement du carrousel en cliquant sur les images pour changer d'image
+- Amélioration du thème avec sass
 
 
 
