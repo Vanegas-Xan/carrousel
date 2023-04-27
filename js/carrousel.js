@@ -8,7 +8,7 @@
     let carrousel__figure = document.querySelector('.carrousel__figure');
 
     /* ---------------------------------- Variable de la galerie */
-
+    let image = 0
     let galerie = document.querySelector('.galerie')
     let galerie__img = galerie.querySelectorAll("img")
     console.log('galerie__img:' + galerie__img.length )
