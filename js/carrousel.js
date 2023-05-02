@@ -67,6 +67,7 @@
    
        creation_img_carrousel(elm)
        creation_radio_carrousel()
+       bouton_image()
      }
    }
    
@@ -79,8 +80,24 @@
           //console.log (img.getAttribute('src'))
           carrousel__figure.appendChild(img)
    }
+
+
+     /**
+    * Création des boutons droit et gauche
+    */
+
+     function bouton_image(){
+    
+            let btn = document.querySelector('carrousel__gauche')
+            let btn_2 = document.querySelector('carrousel__droit')
+      
+    
+     }
+    
+
+
    /**
-    * Création d'un radio-bouton
+    * Création d'un btnio-bouton
     */
    
    
