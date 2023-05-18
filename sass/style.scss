@@ -8,6 +8,9 @@
     transform : scale(0);
     transition : transform .5s;
     background-color: beige;
+    z-index: 1;
+
+  
     @media screen and (max-width:400px) {
         width: 25%;
         height: 25%;
