@@ -71,6 +71,9 @@
   padding: 9px 17px 8px 18px;
   border: solid #1f628d 1px;
   text-decoration: none;
+  position: absolute;
+  left: 16px;
+  bottom: 15em;
 }
 
 .carrousel__droit {
@@ -84,4 +87,7 @@
   padding: 9px 17px 8px 18px;
   border: solid #1f628d 1px;
   text-decoration: none;
+  position: absolute;
+  right: 16px;
+  bottom: 15em;
 }/*# sourceMappingURL=style.css.map */
